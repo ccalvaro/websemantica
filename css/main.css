@@ -1,0 +1,96 @@
+/*
+    * Nombre: Alvaro Calo Casillas
+    * Fecha: 30/12/2023
+    * Modulo: LMSGI
+    * UD1
+    * Tarea: LMSGI02 Tarea evaluativa 2 (80%). Sitio Web
+    * Autoevaluación: 
+*/
+
+
+/*
+Hoja de estilos compartida para todas las páginas de la web
+*/
+
+/* Ajustado a 1920 x 1200*/
+
+/* Ajustado a 1920 x 1200*/
+
+/* Reset básico de propiedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos del header */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+    header figure {
+        width: 8%;
+        height: 10%;
+        margin-right: 50px;
+    }
+
+    .tituloPrincipal {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Estilos para la barra de navegacion */
+    .navPrincipal {
+        height: 10%;
+        margin: 50px 50px;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+        .navPrincipal ul {
+            width: 60%;
+            display: flex;
+        }
+
+            .navPrincipal ul li {
+                width: 25%;
+                font-weight: bold;
+                list-style-type: none;
+            }
+
+            .navPrincipal a {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: grey;
+                text-decoration: none;
+            }
+
+            .navPrincipal a:hover {
+                color: hsl(0, 0%, 100%);
+                background-color: #5f88a5;
+            }
+
+/* Estilos para el footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 5% 1%;
+}

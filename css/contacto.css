@@ -1,0 +1,50 @@
+/*
+    * Nombre: Alvaro Calo Casillas
+    * Fecha: 30/12/2023
+    * Modulo: LMSGI
+    * UD1
+    * Tarea: LMSGI02 Tarea evaluativa 2 (80%). Sitio Web
+    * Autoevaluación: 
+*/
+
+
+/*
+Hoja de estilos para el contacto
+*/
+
+/* Ajustado a 1920 x 1200*/
+
+
+    /* Estilos para los títulos */
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    h2, h3 {
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+    }
+
+    /* Estilos para el formulario */
+    form {
+        display: flex;
+        justify-content: space-around;
+    }
+
+        fieldset {
+            border: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+            label {
+                display: flex;
+                flex-direction: column;
+                padding: 2%;
+            }
+

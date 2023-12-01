@@ -1,0 +1,36 @@
+/*
+    * Nombre: Alvaro Calo Casillas
+    * Fecha: 30/12/2023
+    * Modulo: LMSGI
+    * UD1
+    * Tarea: LMSGI02 Tarea evaluativa 2 (80%). Sitio Web
+    * Autoevaluación: 
+*/
+
+
+/*
+Hoja de estilos para la reseña de libro
+*/
+
+/* Estilos para el main */
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+    /* Estilo para la imagen */
+    .imagen-principal {
+        width: 33%;
+    }
+
+    /* Estilo para la sección de la reseña*/
+    section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+        h3 {
+            font-size: 2em;
+        }

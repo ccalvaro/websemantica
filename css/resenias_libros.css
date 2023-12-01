@@ -1,0 +1,70 @@
+/*
+    * Nombre: Alvaro Calo Casillas
+    * Fecha: 30/12/2023
+    * Modulo: LMSGI
+    * UD1
+    * Tarea: LMSGI02 Tarea evaluativa 2 (80%). Sitio Web
+    * Autoevaluación: 
+*/
+
+
+/*
+Hoja de estilos para la página que enlaza las reseñas
+*/
+
+/* Adapto la barra de navegación a esta página concreta */
+.navPrincipal {
+    margin-bottom: 5%;
+}
+
+
+/* Estilos para el main*/
+main {
+    width: 90%;
+}
+
+    /* Estilos en el aside */
+    aside {
+        width: 20%;
+    }
+
+        h3 {
+            font-size: 2em;
+        }
+
+    /* Estilos para las secciones */
+    .primera-seccion {
+        position: absolute;
+        left: 26%;
+        top: 30%;
+        width: 38%;
+    }
+
+    .segunda-seccion {
+        position: absolute;
+        left: 62%;
+        top: 35%;
+        width: 38%;
+    }
+
+        .titulo-resenias {
+            position: relative;
+            left: 50%;
+            bottom: 19%;
+        }
+
+        /* Estilos para los artículos */
+        article {
+            width: 30%;
+            height: 33vh;
+        }
+
+            h4 {
+                font-size: 1em;
+            }
+
+/* Modifico el footer para que encaje en el posicionamiento  */
+footer {
+    position: fixed;
+    top: 85%
+}

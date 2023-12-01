@@ -1,0 +1,109 @@
+<!--
+    * Nombre: Alvaro Calo Casillas
+    * Fecha: 30/12/2023
+    * Modulo: LMSGI
+    * UD1
+    * Tarea: LMSGI02 Tarea evaluativa 2 (80%). Sitio Web
+    * Autoevaluación: 
+-->
+
+<!--
+    Contacto de la web
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Alejandría</title>
+    <!-- Las hojas de estilo, main es compartido y las demás específicas-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+
+    <!--
+        El header, que se comparte en toda la web
+    -->
+    <header>
+        <figure>
+            <img src="img/logo.jpg" alt="Asmodeo - Wikipedia">
+        </figure>
+        <div class="tituloPrincipal">
+            <h1>Biblioteca <span>Alejandría.</span></h1>
+        </div>
+    </header>
+
+    <!-- Enlaces de navegación -->
+    <nav class="navPrincipal">
+        <ul>
+            <li>
+                <a href="index.html">INICIO</a>
+            </li>
+            <li>
+                <a href="resenias_libros.html">RESEÑAS</a>
+            </li>
+            <li>
+                <a href="noticias.html">NOTICIAS</a>
+            </li>
+            <li>
+                <a href="contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- En el main va el formulario, es el contenido principal -->
+    <main>
+
+        <!--Introducción para el formulario -->
+        <h2>¿Quieres decirme algo</h2>
+        <h3>¡Este es tu momento!</h3>
+
+        <!-- Formulario que envía un correo -->
+        <form action="mailto:correo@privado.com" method="POST">
+            <fieldset>
+                <!-- Englobo los input dentro de los label para posicionarlos mejor -->
+                <label for="nombre">Nombre
+                    <input type="text" id="nombre" name="nombre" placeholder="Eduardo Manos Tijeras">
+                </label>
+
+                <label for="correo">Correo electrónico
+                    <input type="email" id="correo" name="correo" placeholder="tu@correo.com">
+                </label>
+
+                <label for="asunto">Asunto
+                    <input type="text" id="asunto" name="asunto" placeholder="Menuda chapa">
+                </label>
+
+                <label for="mensaje">Comentario
+                    <textarea id="mensaje" name="mensaje" rows="10" cols="30">Por favor, que sea cortito.
+                </textarea>
+                </label>
+
+                <input type="submit" value="Enviar">
+
+            </fieldset>
+
+            <!-- Una imagen para darle algo de vida al formulario -->
+            <figure>
+                <img src="img/foto-perfil.jpg" alt="Bérenger Saunière - Wikipedia">
+            </figure>
+        </form>
+
+    </main>
+
+
+    <!--
+        El footer, que se comparte en toda la web
+    -->
+    <footer>
+        <p>Álvaro</p>
+        <p>|</p>
+        <p>Todas las imágenes son de la Wikipedia</p>
+    </footer>
+</body>
+
+</html>
